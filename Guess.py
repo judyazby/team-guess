@@ -8,4 +8,5 @@ if guess == answer:
 elif guess < answer:
     print("Too low!")
 else:
-    print("Wrong! The answer was", answer)
+    print("Too high!")
+print("The answer was", answer)
